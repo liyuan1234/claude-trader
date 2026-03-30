@@ -1,0 +1,18 @@
+Command:
+./.venv/bin/python -m trading.main backtest --symbols AAPL --period 2y --strategy momentum
+
+Output:
+============================================================
+  Backtest Results: AAPL
+============================================================
+  Total Return:        -1.29%
+  Annual Return:       -0.65%
+  Sharpe Ratio:         -0.52
+  Sortino Ratio:        -0.29
+  Max Drawdown:         1.98%
+  Calmar Ratio:         -0.33
+  Win Rate:            40.00%
+  Profit Factor:         0.35
+  Total Trades:             5
+  Avg Trade P&L:   $  -258.40
+============================================================
